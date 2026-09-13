@@ -1,0 +1,47 @@
+# ==============================================================================
+# BashWAF / Security Suite - .gitignore
+# ==============================================================================
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary Files & Scratch Dirs
+*.tmp
+*.temp
+/tmp/
+/scratch/
+mktemp-*
+
+# Backup & Historical Files
+*.bak
+*.bak_*
+*~
+*.swp
+*.swo
+
+# Generated Audit Reports & Logs
+audit-report.json
+audit-report.txt
+*.log
+/logs/
+
+# IDE & Editor Configurations
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Environment & Sensitive Secrets
+.env
+.env.local
+*.pem
+*.key
+id_rsa
+id_ed25519
